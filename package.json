@@ -1,0 +1,28 @@
+{
+  "name": "dnd-tabletop",
+  "version": "1.0.0",
+  "description": "Layout and control your D&D encounters with your party members from any browser.",
+  "private": "true",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./server.js",
+    "start": "node ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "AML",
+    "email": "andrewmloop@gmail.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.4",
+    "socket.io": "^4.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "nodemon": "^2.0.16"
+  }
+}
